@@ -55,7 +55,7 @@ header + * {
 }
 
 #pc-navbar {
-    @apply sm:w-16 xl:w-1/6 w-full sm:block hidden bottom-0 sm:border-r p-4;
+    @apply sm:w-16 xl:w-1/6 w-full sm:flex flex-col items-center hidden bottom-0 sm:border-r p-4;
 }
 
 main {
