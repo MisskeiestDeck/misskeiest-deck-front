@@ -41,3 +41,27 @@ a {
 a:hover, a:focus, a:active {
     @apply border-blue-500;
 }
+
+header{
+    @apply fixed flex gap-2 p-2 border-b bg-white w-full text-xl;
+}
+
+header + * {
+    @apply pt-[3.25rem];
+}
+
+#body {
+    @apply flex flex-col sm:flex-row w-full h-full items-stretch;
+}
+
+#pc-navbar {
+    @apply sm:w-16 xl:w-1/6 w-full sm:block hidden bottom-0 sm:border-r p-4;
+}
+
+main {
+    @apply flex-1;
+}
+
+#rightbar {
+    @apply hidden lg:block w-1/4 min-w-[16rem] border-l p-4;
+}
